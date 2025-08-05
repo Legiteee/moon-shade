@@ -9,7 +9,7 @@ const default_config = {
   tabs: [
     {
       name: "home",
-      background_url: `src/img/banners/cbg-8.gif`,
+      background_url: `src/img/banners/cbg-12.gif`,
       categories: [
         {
           name: "",
@@ -21,8 +21,8 @@ const default_config = {
               icon_color: palette.blue,
             },
             {
-              name: "classroom",
-              url: "https://classroom.google.com/u/1/",
+              name: "blackboard",
+              url: "https://elearning.uminho.pt/",
               icon: "books",
               icon_color: palette.green,
             },
@@ -52,7 +52,7 @@ const default_config = {
             {
               name: "twitter",
               url: "https://x.com",
-              icon: "brand-x",
+              icon: "brand-twitter",
               icon_color: palette.text,
             },
           ],
@@ -61,22 +61,22 @@ const default_config = {
           name: "",
           links: [
             {
-              name: "github",
-              url: "https://github.com/ashish0kumar",
-              icon: "brand-github",
+              name: "Notion",
+              url: "https://www.notion.so/Notion-9dbbe3c39e7f45e79e51150c7bcfe634",
+              icon: "brand-notion",
               icon_color: palette.green,
             },
             {
-              name: "devdocs",
-              url: "https://devdocs.io",
-              icon: "code",
-              icon_color: palette.blue,
+              name: "F1",
+              url: "https://f1tv.formula1.com/",
+              icon: "helmet",
+              icon_color: palette.red,
             },
             {
-              name: "hacker-news",
-              url: "https://news.ycombinator.com",
-              icon: "news",
-              icon_color: palette.peach,
+              name: "Twitch",
+              url: "www.twitch.tv",
+              icon: "brand-twitch",
+              icon_color: palette.purple,
             },
           ],
         },
@@ -84,45 +84,23 @@ const default_config = {
           name: "",
           links: [
             {
-              name: "leetcode",
-              url: "https://leetcode.com/u/ashish0kumar/",
-              icon: "brand-leetcode",
+              name: "outlook",
+              url: "https://outlook.office.com/mail/",
+              icon: "mail-spark",
               icon_color: palette.yellow,
             },
             {
-              name: "dsa",
-              url: "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2",
-              icon: "binary-tree",
-              icon_color: palette.red,
+              name: "FMHY",
+              url: "https://fmhy.net/",
+              icon: "skull",
+              icon_color: palette.peach,
             },
-            {
-              name: "udemy",
-              url: "https://www.udemy.com/home/my-courses/learning/",
-              icon: "certificate",
-              icon_color: palette.lavender,
-            },
-          ]
-        },
-        {
-          name: "",
-          links: [
             {
               name: "chatgpt",
               url: "https://chatgpt.com/",
               icon: "brand-openai",
               icon_color: palette.teal,
-            },
-            {
-              name: "claude",
-              url: "https://claude.ai/new",
-              icon: "north-star",
-              icon_color: palette.peach,
-            },
-            {
-              name: "perplexity",
-              url: "https://www.perplexity.ai/",
-              icon: "asterisk",
-              icon_color: palette.green,
+            
             },
           ]
         },
